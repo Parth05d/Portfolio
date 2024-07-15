@@ -1,0 +1,62 @@
+.backgroung_img{
+    height: 800px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg");
+}
+
+.imagetext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family : cursive;
+    padding-top: 300px;
+}
+
+#align{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#profile-img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+#font-color{
+    color: black;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+h2 {
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+#figma{
+    color : teal;
+    font-style: italic;
+    font-weight: bold;font-size: 50px;
+}
+.contact-me{
+    text-align: center;
+}
+.btn{
+    background-color: #66bfbf;
+}
